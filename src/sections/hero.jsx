@@ -15,11 +15,11 @@ export const Hero = () => {
                 <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider uppercase bg-cyan-400 text-cyan-900 rounded-full">Brand new</p>
               </div>
               <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-200 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
-              It's not just food, it's an{" "}
+              {"It's not just food, it's an "}
                 <span className="inline-block text-yellow-500">Experience.</span>
               </h2>
               <p className="my-6 text-lg text-gray-400">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.</p>
+            {"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo."}</p>
             </div>
             <div className="flex items-center space-x-3">
               <Link href="/" className="w-32 transition duration-300 hover:shadow-lg">

@@ -12,8 +12,8 @@ export const Integrations = () => (
             Connect with Your Favorite Apps.
           </h2>
           <p className="mt-4 text-gray-400 text-base sm:text-xl lg:text-2xl">
-            We've built integrations with some of your favorite services.
-            <br className="lg:hidden hidden sm:block" /> Check'em out below 👇
+            {"We've built integrations with some of your favorite services."}
+            <br className="lg:hidden hidden sm:block" /> {"Check'em out below 👇"}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 my-12 sm:my-16">
             <div className="rounded-lg py-10 flex flex-col items-center justify-center shadow-lg border border-gray-100">
