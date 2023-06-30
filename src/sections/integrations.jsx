@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Integrations = () => (
     <>
       {/* Section 1 */}
@@ -175,12 +177,12 @@ export const Integrations = () => (
               <p className="mt-2 text-sm text-gray-400">Spreadsheet</p>
             </div>
           </div>
-          <a
+          <Link
             href="#_"
             className="px-8 py-4 sm:w-auto w-full text-center text-base font-medium inline-block rounded text-white hover:bg-cyan-800 bg-cyan-600"
           >
             View All Integrations
-          </a>
+          </Link>
         </div>
       </section>
     </>

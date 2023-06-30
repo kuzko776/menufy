@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import Link from "next/link";
+
 export const TopNav = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
@@ -9,37 +11,37 @@ export const TopNav = () => {
           <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
             <ul class="flex items-center hidden space-x-8 lg:flex">
               <li>
-                <a
+                <Link
                   href="#features"
                   aria-label="Our product"
                   title="Our product"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                 >
                   Features
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#pricing"
                   aria-label="Our product"
                   title="Our product"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                 >
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#integration"
                   aria-label="Product pricing"
                   title="Product pricing"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                 >
                   Intergation
-                </a>
+                </Link>
               </li>
             </ul>
-            <a
+            <Link
               href="/"
               aria-label="Menufy"
               title="Menufy"
@@ -63,37 +65,37 @@ export const TopNav = () => {
               <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
                 Menufy
               </span>
-            </a>
+            </Link>
             <ul class="flex items-center hidden space-x-8 lg:flex">
               <li>
-                <a
+                <Link
                   href="#hero"
                   aria-label="About us"
                   title="About us"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                 >
                   About us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/"
                   aria-label="Sign in"
                   title="Sign in"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                 >
                   Sign in
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/"
                   aria-label="Sign up"
                   title="Sign up"
                   class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                 >
                   Sign up
-                </a>
+                </Link>
               </li>
             </ul>
             <div class="lg:hidden">
@@ -123,7 +125,7 @@ export const TopNav = () => {
                   <div class="p-5 bg-gray-900 border rounded shadow-sm">
                     <div class="flex items-center justify-between mb-4">
                       <div>
-                        <a
+                        <Link
                           href="/"
                           aria-label="Menufy"
                           title="Menufy"
@@ -147,7 +149,7 @@ export const TopNav = () => {
                           <span class="ml-2 text-xl font-bold tracking-wide text-gray-300 uppercase">
                             Menufy
                           </span>
-                        </a>
+                        </Link>
                       </div>
                       <div>
                         <button
@@ -168,64 +170,64 @@ export const TopNav = () => {
                     <nav>
                       <ul class="space-y-4">
                         <li>
-                          <a
+                          <Link
                             href="#features"
                             aria-label="Our product"
                             title="Our product"
                             class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                           >
                             Features
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href="#pricing"
                             aria-label="Our product"
                             title="Our product"
                             class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                           >
                             Pricing
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href="#integration"
                             aria-label="Product pricing"
                             title="Product pricing"
                             class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                           >
                             Integration
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href="#hero"
                             aria-label="About us"
                             title="About us"
                             class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                           >
                             About us
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href="/"
                             aria-label="Sign in"
                             title="Sign in"
                             class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-yellow-400"
                           >
                             Sign in
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             href="/"
                             class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-yellow-500 hover:bg-yellow-700 focus:shadow-outline focus:outline-none"
                             aria-label="Sign up"
                             title="Sign up"
                           >
                             Sign up
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </nav>
