@@ -3,7 +3,7 @@ import Image from "next/image";
 import phone3 from "../icons/phone3.png"
 
 export const CallToAction = () => (
-    <section className="text-gray-800 body-font max-w-6xl mx-auto">
+    <section id="download" className="text-gray-800 body-font max-w-6xl mx-auto">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h2 className="text-4xl font-extrabold leading-10 tracking-tight text-gray-200 sm:text-5xl sm:leading-none md:text-6xl lg:text-5xl xl:text-6xl">
